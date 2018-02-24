@@ -1,0 +1,15 @@
+
+# serivce host
+# mac use `docker-machine env default` to get ip
+
+# postgresql
+# username admin password root
+postgresql:
+  image: postgres:9.4
+  hostname: localhost
+  ports:
+    - "5432:5432"
+  environment:
+    - POSTGRES_USER=admin
+    - POSTGRES_PASSWORD=root
+    - POSTGRES_DB=postgres
