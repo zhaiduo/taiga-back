@@ -78,17 +78,17 @@ LANGUAGES = [
     #("bn", "বাংলা"),  # Bengali
     #("br", "Bretón"),  # Breton
     #("bs", "Bosanski"),  # Bosnian
-    ("ca", "Català"),  # Catalan
+    #("ca", "Català"),  # Catalan
     #("cs", "Čeština"),  # Czech
     #("cy", "Cymraeg"),  # Welsh
     #("da", "Dansk"),  # Danish
-    ("de", "Deutsch"),  # German
+    #("de", "Deutsch"),  # German
     #("el", "Ελληνικά"),  # Greek
     ("en", "English (US)"),  # English
     #("en-au", "English (Australia)"),  # Australian English
     #("en-gb", "English (UK)"),  # British English
     #("eo", "esperanta"),  # Esperanto
-    ("es", "Español"),  # Spanish
+    #("es", "Español"),  # Spanish
     #("es-ar", "Español (Argentina)"),  # Argentinian Spanish
     #("es-mx", "Español (México)"),  # Mexican Spanish
     #("es-ni", "Español (Nicaragua)"),  # Nicaraguan Spanish
@@ -96,8 +96,8 @@ LANGUAGES = [
     #("et", "Eesti"),  # Estonian
     #("eu", "Euskara"),  # Basque
     #("fa", "فارسی‏"),  # Persian
-    ("fi", "Suomi"),  # Finnish
-    ("fr", "Français"),  # French
+    #("fi", "Suomi"),  # Finnish
+    #("fr", "Français"),  # French
     #("fy", "Frysk"),  # Frisian
     #("ga", "Irish"),  # Irish
     #("gl", "Galego"),  # Galician
@@ -109,13 +109,13 @@ LANGUAGES = [
     #("id", "Bahasa Indonesia"),  # Indonesian
     #("io", "IDO"),  # Ido
     #("is", "Íslenska"),  # Icelandic
-    ("it", "Italiano"),  # Italian
-    ("ja", "日本語"),  # Japanese
+    #("it", "Italiano"),  # Italian
+    #("ja", "日本語"),  # Japanese
     #("ka", "ქართული"),  # Georgian
     #("kk", "Қазақша"),  # Kazakh
     #("km", "ភាសាខ្មែរ"),  # Khmer
     #("kn", "ಕನ್ನಡ"),  # Kannada
-    ("ko", "한국어"),  # Korean
+    #("ko", "한국어"),  # Korean
     #("lb", "Lëtzebuergesch"),  # Luxembourgish
     #("lt", "Lietuvių"),  # Lithuanian
     #("lv", "Latviešu"),  # Latvian
@@ -124,35 +124,35 @@ LANGUAGES = [
     #("mn", "Монгол"),  # Mongolian
     #("mr", "मराठी"),  # Marathi
     #("my", "မြန်မာ"),  # Burmese
-    ("nb", "Norsk (bokmål)"),  # Norwegian Bokmal
+    #("nb", "Norsk (bokmål)"),  # Norwegian Bokmal
     #("ne", "नेपाली"),  # Nepali
-    ("nl", "Nederlands"),  # Dutch
+    #("nl", "Nederlands"),  # Dutch
     #("nn", "Norsk (nynorsk)"),  # Norwegian Nynorsk
     #("os", "Ирон æвзаг"),  # Ossetic
     #("pa", "ਪੰਜਾਬੀ"),  # Punjabi
-    ("pl", "Polski"),  # Polish
+    #("pl", "Polski"),  # Polish
     #("pt", "Português (Portugal)"),  # Portuguese
-    ("pt-br", "Português (Brasil)"),  # Brazilian Portuguese
+    #("pt-br", "Português (Brasil)"),  # Brazilian Portuguese
     #("ro", "Română"),  # Romanian
-    ("ru", "Русский"),  # Russian
+    #("ru", "Русский"),  # Russian
     #("sk", "Slovenčina"),  # Slovak
     #("sl", "Slovenščina"),  # Slovenian
     #("sq", "Shqip"),  # Albanian
     #("sr", "Српски"),  # Serbian
     #("sr-latn", "srpski"),  # Serbian Latin
-    ("sv", "Svenska"),  # Swedish
+    #("sv", "Svenska"),  # Swedish
     #("sw", "Kiswahili"),  # Swahili
     #("ta", "தமிழ்"),  # Tamil
     #("te", "తెలుగు"),  # Telugu
     #("th", "ภาษาไทย"),  # Thai
-    ("tr", "Türkçe"),  # Turkish
+    #("tr", "Türkçe"),  # Turkish
     #("tt", "татар теле"),  # Tatar
     #("udm", "удмурт кыл"),  # Udmurt
     #("uk", "Українська"),  # Ukrainian
     #("ur", "اردو‏"),  # Urdu
     #("vi", "Tiếng Việt"),  # Vietnamese
     ("zh-hans", "中文(简体)"),  # Simplified Chinese
-    ("zh-hant", "中文(香港)"),  # Traditional Chinese
+    #("zh-hant", "中文(香港)"),  # Traditional Chinese
 ]
 
 # Languages using BiDi (right-to-left) layout
@@ -194,7 +194,7 @@ MESSAGE_STORAGE = "django.contrib.messages.storage.session.SessionStorage"
 # The absolute url is mandatory because attachments
 # urls depends on it. On production should be set
 # something like https://media.taiga.io/
-MEDIA_URL = "http://localhost:8000/media/"
+MEDIA_URL = "http://localhost:8081/media/"
 STATIC_URL = "http://localhost:8000/static/"
 
 # Static configuration.
